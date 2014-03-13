@@ -82,6 +82,13 @@ top:0%;
 background:white;
 }
 
+#written_events { position:relative;
+overflow: auto;
+height: 430%;
+top:0%;
+background:white;
+}
+
 #written_left { position:relative;
 height: 430%;
 float:left;
@@ -264,7 +271,7 @@ background: -ms-linear-gradient(top, #ff7b0d 2%,#e95d0e 100%); /* IE10+ */
 background: linear-gradient(to bottom, #ff7b0d 2%,#e95d0e 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7b0d', endColorstr='#e95d0e',GradientType=0 ); /* IE6-9 */
 height:16.67%;
-top:208%;
+top:260%;
 z-index:3;
 position:absolute;
 color:white;
@@ -644,3 +651,4 @@ color:blue;
 color: #FFFF00; 
 /*color:#f7b018; */
 }
+
