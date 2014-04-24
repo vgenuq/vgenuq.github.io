@@ -1,172 +1,127 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-	<head>
-		<title>VGen UQ</title>
-		<link rel="icon" type="image/png" href="images/favicon.ico" />
-		<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/jquery.cycle.all.js" type="text/javascript"></script>
-		<script src="js/slippry.js" type="text/javascript"></script>
-		<script src="/js/slippry.min.js"></script>
-		<link rel="stylesheet" href="/css/slippry.css" />
-		<script type="text/javascript">
+<!DOCTYPE html>
 
-$(document).ready(function(){
-  $('#banner').cycle()
-  
-/* I did an online web tutorial which taught me how to make a drop down menu using jquery -> http://wabism.com/jquery-drop-down-menu-tutorial/ */	
-	
-$('.dropdown').hover(function() {
-$(this).find('.sub_navigation').stop(true,true).slideToggle(); });
-	
-	});
-		
-  </script>
-<script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
-<script src="js/slippry.js" type="text/javascript"></script>	 
-		
-<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-	<div id="header1">
-		<div id="headercontent">
-	<!--height="150" width="175" -->
-			<img id="titlephoto" src="images/modlogo1.png" width="20%" alt="myself" /> 
-			<h1 id="Title1"> VGen UQ </h1>
-			<h3 id="subtitle"> World Vision's Australia's youth movement </h3>
-			<!--<img id="logo1" src="images/modlogo2.png" width="20%" alt="myself" /> -->
-			<img id="logo1" src="images/logo-worldvision.png" width="20%" alt="myself" /> 
+<html lang="en">
+
+<head>
+<title>VGen UQ - UQ Branch of World Vision Australia's Youth Movement</title>
+<meta charset ="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href ="css/bootstrap.css" rel ="stylesheet">
+<link href ="css/normalize.css" rel ="stylesheet" >
+<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/bootstrap-theme.css">
+ <link rel="stylesheet" href="css/style.css">
+<!-- skin -->
+<link rel="stylesheet" href="skin/default.css">
+
+
+<link href ="css/styles.css" rel ="stylesheet" >
+
+</head>
+
+<body>
+
+
+<section id="header" class="appear"></section>
+		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+			 <div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="fa fa-bars color-white"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;"> VGen UQ
+					</a></h1>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">Our Team</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li class="active"> <a href ="contactus.html"> Contact Us </a> </li>
+						<!--<li><a href="contact.html">Contact</a></li> -->
+					</ul>
+				</div><!--/.navbar-collapse -->
+			</div>
 		</div>
-	</div>
-	<div id="navbackground">
+
+		<div class="container">
+			<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+						<br/>
+							<h2 class="section-heading animated" data-animation="bounceInUp">Contact Us</h2>
+						</div>
+					</div>
+				</div>
+		
+		
+	<div class= "row align-center">
 	
-		<ul id="navigation">
-	<li class="dropdown"><a class="navlist" href="index.html">Home</a>
-	</li>
-	<li class="dropdown"><a class="navlist" href="news.html">Latest News</a>
-		<!--<ul class="sub_navigation">
-			<li><a class="navlist" href="placeholder1.html">placeholder1</a></li>
-			<li><a class="navlist" href="placeholder2.html">placeholder2</a></li>
-		</ul> -->
-	</li>
-	<li class="dropdown"><a class="navlist" href="team.html">About Us</a>
-	</li>
-	<li class="dropdown"><a class="navlist" href="events.html"><p class="yellow" >Events </p></a>
-	</li>
-	<li class="dropdown"><a class="navlist" href="gallery.html">Gallery</a>
-		<!--<ul class="sub_navigation">
-			<li><a class="navlist" href="placeholder3.html">placeholder3</a></li>
-			<li><a class="navlist" href="placeholder4.html">placeholder4</a></li>
-		</ul> -->
-	</li>
-	<li class="dropdown"><a class="navlist" href="contactus.html">Contact Us</a>
-		<!--<ul class="sub_navigation">
-			<li><a class="navlist" href="placeholder5.html"> placeholder5 </a></li>
-		</ul> -->
-</ul>
-<div id="social">
-<a href=" https://www.facebook.com/VGenUQ?ref=stream "><img id="facebook" src="images/facebook.png" alt="facebook link" height="27.2"/> </a>
-<a href= "https://twitter.com/VGENUQ" ><img id="twitter" src="images/twitter.png" alt="twitter link" height="27.2" /></a>
-<a href="http://www.youtube.com/user/VGenStunts"><img id="youtube" src="images/youtube.png" alt="youtube link" height="27.2" /></a>
-<a href="http://instagram.com/vgenqld#"><img id="flickr" src="images/instagram.png" alt="instagram link" height="27.2" /></a>
-</div>
+		
+		<div class ="col-md-12">
+		<h3> Events </h3>
+		<p> 
+		Under Construction. In the meantime please like our <a href="https://www.facebook.com/VGenUQ?fref=nf"> facebook page </a> in order to receive the latest news on our events.
+		</p>
+		</div>
+
+	</div>
+
 </div>
 
 		
-		<div id="maincontent">
-				<div id="left_col_events">
-<!--				
-<div id="banner">
-<a href="news.html"><img src="images/test_photo1.jpg" id="pics" alt="test_photo1" height="450px" width="900px" /> </a>
-<a href="team.html"><img src="images/test_photo2.jpg" id="pics" alt="test_photo2" height="450px" width="900px" /></a>
-<a href="contactus.html"><img src="images/test_photo3.jpg" id="pics" alt="test_photo3" height="450px" width="900px" /></a>
-</div>
--->
 
-<div id="written_events">
-
-<h2 class="orange"> Events</h2>
-<hr id="sep"/>
-<h2 class="orange"> </h2>
-<br/>
-
-<img id="event_photo" src="images/event1.jpg" alt="example event photo"  /> 
-
-<br/>
-
-<div class="center">
-<p id="event_subhead">March</p>
-</div>
-<hr/>
-
-<div class="center">
-<p class="para"> <a class="blue1" href="https://www.facebook.com/events/252528921586412/?ref_newsfeed_story_type=regular"> Monday 17th &#45; Screening of "12 Years a Slave"(7:30 PM &#45; 10:00 PM)</a> </p>
-</div>
-<p class="para">Schonell Theatre at UQ is holding
- a screening of the Academy and Oscar awards winning
- film 12 Years a Slave. This is a great event for
- VGenners to get together to watch a film about a passion
- close to all of our hearts: learning about and fighting
- social injustice. This is an early event in regards to 
- International Day of Remembrance of Slaves on the 25th of March.
- This event will also bring together social activists from 
- around uni, which makes it a great opportunity to meet and 
- talk with other like-minded people who share a similar 
- World Vision (sorry not sorry ;) ). We may all be a part of
- different groups, but our aim - a world free from injustice - is shared!</p>
-<p class="para">Event open to EVERYONE!!! </p>
-<p class="para"> TICKETS: $6 for UQers, $8 - everyone else with concession
-card and $12 adult! if we can 30 people to RSVP that
-means more discounts for everyone!</p>
- <br/>
-
-
-<div class="center">
-
-<p class="para"> <a class="blue1" href= "https://www.facebook.com/events/1395785124019666/" > Tuesday 11th &#45; Picnic in the Great Court (2:00 PM &#45; 5:00 PM) </a> </p>
-</div>
-<p class="para">We&#146;ll be setting up afternoon tea in the Great Court as 
-an opportunity for you to meet your executive team for 2014.
- There will be food and drinks provided so come along and join
- us for a relaxed afternoon and take advantage of this chance 
- to meet some amazing new friends who share the same passion
- for social justice and the alleviation of poverty.</p>
- <br/>
- <div class="center">
- <p class="para">Tuesday 4th &#45; BBQ @ Cooper Rd Roundabout (10:00 AM &#45; 3:00 PM)</p>
-</div>
-<p class="para">Come join us as the exec team cooks up a storm! 
-Halal meat, limited vegetarian options and drinks will all be available!</p>
-<br/>
-<br/>
-
-
-
-<p id="event_subhead">February </p>
-<hr/>
-<div class="center">
-<p class="para"> Wednesday 26th &#45; <a class="blue1" href="https://www.facebook.com/events/1445252819044222/"> Market Day</a></p> </div>
-</div>
-<p class="para">VGen UQ will be out in force on Market Day.
- We will be set up just near the Michie Building
- with the other social justice clubs, 
- and we can&#146;t wait to see you there! 
- Don&#146;t forget to sign up for membership,
- enter our raffle and pick up some freebies while you&#146;re at it!
- <a class="blue1" href="https://www.facebook.com/events/1445252819044222/"></a> </p>
-
-<br/>
-<div class="center"> For further information about our events please like us on <a class="blue1" href=" https://www.facebook.com/VGenUQ?ref=stream ">facebook</a>.  </div>
-<br/>
- 
- <div class="center">
-
- 
-</div>
+<section id="footer" class="section footer">
+		<div class="container">
+			<div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+				<div class="col-sm-12 align-center">
+                    <ul class="social-network social-circle">
+                        <li><a href="https://www.facebook.com/VGenUQ?ref=stream" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/VGENUQ" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://instagram.com/vgenqld#" class="icoGoogle" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="http://www.youtube.com/user/VGenStunts" class="icoLinkedin" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                    </ul>				
 				</div>
-				</div>
-	<div id="footer_events"> 
-			<p id="footercontent"> &#169; VGen UQ. Website created by Randall G. Fernando</p>
-			</div>			
-			
+			</div>
+
+			<div class="row align-center copyright">
+					<div class="col-sm-12"><p>Site built by Randall G. Fernando</p></div>
+			</div>
+		</div>
+	</section>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.js"> </script>
+<script src="js/jquery-1.11.0.min.js">  </script>
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/skrollr.min.js"></script>		
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/validate.js"></script>
+    <script src="js/main.js"></script>
+ 
+ 	<script type="text/javascript">
+
+$(document).ready(function() {
+    $('#myCarousel').carousel({
+    interval: 1000
+    });
+});
+
+</script> 
+
+</body>
+
 </html>
